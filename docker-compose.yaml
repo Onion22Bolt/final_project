@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  helloworld:
+    build: 
+      context: ./
+    ports:
+    - "2020:2020"
+    
